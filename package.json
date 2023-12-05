@@ -9,13 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
+    "@prisma/client": "^5.6.0",
+    "icons": "^1.0.0",
+    "next": "^14.0.1",
+    "react": "^18.2.0",
     "react-dom": "^18",
-    "next": "14.0.1"
+    "react-icons": "^4.12.0"
   },
   "devDependencies": {
+    "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.0.1",
+    "daisyui": "^4.4.17",
     "postcss": "^8",
+    "prisma": "^5.6.0",
     "tailwindcss": "^3.3.0"
   }
 }
